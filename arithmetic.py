@@ -26,7 +26,11 @@ def divide(num1, num2):
     return num1 / num2
 
 def square(num1):
-    pass
+	""" Square a number.
+	Square num1 to get an integer output
+	"""
+
+	return num1 * num1
 
 def cube(num1):
     pass
@@ -37,4 +41,4 @@ def power(num1, num2):
 def mod(num1, num2):
     pass
 
-print divide(20, 5)
+print square(5)
