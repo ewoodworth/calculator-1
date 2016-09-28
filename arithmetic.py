@@ -47,6 +47,10 @@ def power(num1, num2):
 	return num1 ** num2
 
 def mod(num1, num2):
-    pass
+	"""Find the remainder after the division of two numbers
+	Returns the remainder integer after dividing num1 by num2
+	"""
 
-print power(3,4)
+	return num1 % num2
+
+print mod(7,4)
