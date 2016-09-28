@@ -20,10 +20,10 @@ def multiply(num1, num2):
 
 def divide(num1, num2):
     """Find the quotient of two numbers
-    Divide num1 by num2 to get an integer
+    Divide num1 by num2 to get a float
     """
 
-    return num1 / num2
+    return float(num1) / float(num2)
 
 def square(num1):
 	""" Square a number.
