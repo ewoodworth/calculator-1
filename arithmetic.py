@@ -19,7 +19,11 @@ def multiply(num1, num2):
 	return num1 * num2
 
 def divide(num1, num2):
-    pass
+    """Find the quotient of two numbers
+    Divide num1 by num2 to get an integer
+    """
+
+    return num1 / num2
 
 def square(num1):
     pass
@@ -33,4 +37,4 @@ def power(num1, num2):
 def mod(num1, num2):
     pass
 
-print multiply(4, 5)
+print divide(20, 5)
