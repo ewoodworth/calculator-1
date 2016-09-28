@@ -40,9 +40,13 @@ def cube(num1):
     return num1 ** 3
 
 def power(num1, num2):
-    pass
+	"""Find the nth power of a number
+	Raise num1 to the power of num2 to get an integer output
+	"""
+
+	return num1 ** num2
 
 def mod(num1, num2):
     pass
 
-print cube(5)
+print power(3,4)
